@@ -15,7 +15,6 @@ function pressIt() {
   $('form').on('keydown', function(key) {
     if (key.which == 'g') {
       alert('You have preseed the g key.');
-      return;
     }
   })
   
