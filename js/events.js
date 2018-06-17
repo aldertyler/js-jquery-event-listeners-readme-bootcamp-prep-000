@@ -12,7 +12,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('#typing').on('keydown', function(e) {
+  $('form').on('keydown', function(e) {
     if (e.key == 'g') {
       alert('You have preseed the g key.');
     }
